@@ -1,7 +1,16 @@
+# Ignore build artifacts
 bin/
 obj/
+
+# Ignore all JSON files (optional, unless needed)
+*.json
+
+# Ignore compiled binaries and debugging symbols
 *.dll
 *.exe
 *.pdb
 *.nuget.cache
-*.json
+
+# Ignore all obj and bin folders recursively
+**/bin/
+**/obj/
